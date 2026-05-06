@@ -1,13 +1,68 @@
-# 🧠 TechTrove - Discover & Share Innovative Tech Products 🚀
 
-Welcome to **TechTrove**, a dynamic platform for discovering, reviewing, and promoting the latest tech products including web apps, AI tools, software, mobile apps, and games. 
 
-🔗 **Live Site URL:** [https://product-hunt-63bf5.web.app]
+# 🚀 Product Hunt Client
 
-## 🌟 Key Features
+A product discovery platform where users can submit, explore, and review products with a moderation system to maintain quality.
 
-- **🧑‍💻 Role-Based Dashboard**: Separate dashboards and permissions for Users, Moderators, and Admins.
-- **📥 Product Submission & Moderation**: Users can submit tech products for review; moderators approve, reject, or mark them as featured.
-- **🔥 Trending & Featured Products**: Homepage highlights most voted and moderator-featured products, sorted in real-time.
-- **💬 Review & Upvote System**: Users can upvote once and write reviews; owners can't vote for their own products.
-- **💸 Membership Subscription with Coupons**: Users can subscribe for premium features and apply admin-generated discount coupons.
+---
+
+## 📖 About The Project
+
+Product Hunt is built to give developers and creators a platform to showcase their products, while a moderation system ensures only quality products get published — keeping the community trustworthy and valuable.
+
+---
+
+## 🛠️ Tech Stack
+
+- JavaScript
+- React.js
+- Tailwind CSS
+- DaisyUI
+
+---
+
+## ✨ Key Features
+
+- 📦 Users can submit their products
+- ✅ Moderators review & publish submitted products
+- ⭐ Logged-in users can post reviews on products
+- 👍👎 Like & dislike system on reviews
+- 🗑️ Moderators can remove low-quality products
+- 📊 Moderators can monitor likes/dislikes on all reviews
+
+---
+
+## 📁 Project Structure Highlights
+
+- `src/pages` — All page components
+- `src/layouts` — Shared layout components
+- `src/components/shared` — Reusable shared components
+
+---
+
+## ⚙️ Setup Instructions
+
+```bash
+git clone https://github.com/Tanvir4312/products-hunt-client
+cd products-hunt-client
+npm install
+npm run dev
+```
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the root directory:
+
+```dotenv
+VITE_API_URL=http://localhost:5000
+VITE_PAYMENT_API_PK=your_VITE_PAYMENT_API_PK
+```
+
+---
+
+## 🔗 Links
+
+- **Live Demo:** [Click Here](https://product-hunt-63bf5.web.app/)
+- **Backend Repo:** [products-hunt-server](https://github.com/Tanvir4312/products-hunt-server)
